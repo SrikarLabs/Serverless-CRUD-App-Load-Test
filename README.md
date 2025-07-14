@@ -3,7 +3,7 @@
 ## Lab Overview And High Level Design
 
 Let's start with the High Level Design.
-<img width="1014" height="338" alt="image" src="https://github.com/user-attachments/assets/c041d82d-4fd1-4f96-83b8-780f76230839" />
+![High Level Design](./images/high-level-design.jpg)
 
 An Amazon API Gateway is a collection of resources and methods. For this tutorial, you create one resource (DynamoDBManager) and define one method (POST) on it. The method is backed by a Lambda function (LambdaFunctionOverHttps). That is, when you call the API through an HTTPS endpoint, Amazon API Gateway invokes the Lambda function.
 
@@ -53,7 +53,7 @@ We need to create a custom policy for least privilege
 2. Click "Create policy" on top right corner
 3. In the policy editor, click JSON, and paste the following 
 
-<img width="2519" height="1264" alt="image" src="https://github.com/user-attachments/assets/8e530921-9348-4508-93bf-76a0396c7657" />
+![Create policy](./images/create-policy.jpg)
 
 
 ```json
