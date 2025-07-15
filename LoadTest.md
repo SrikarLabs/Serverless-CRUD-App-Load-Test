@@ -60,7 +60,8 @@ Now, let’s improve performance! Change the Lambda memory from 128 to 1024 MB u
 
 
 As we increase Lambda memory, it gets more vCPU (mapping below)
- 
+
+   ![LambdaTable](./images/LambdaTable.jpg)
 
 Now that our Lambda has 0.5 vCPU instead of 0.0625, it should perform faster. Let’s test it out
 
@@ -68,7 +69,10 @@ Go back to postman, and click “Run Again”
 
  ![LT10](./images/LT10.jpg)
 
-Export pdf again. And this time, response time came down because Lambda has more memory and vCPU
+And this time, response time came down because Lambda has more memory and vCPU
+
+ ![Test2](./images/Test2.jpg)
+  ![Report2](./images/Report2.jpg)
  
 
 Customers run Lambda Power Tuning (https://github.com/alexcasalboni/aws-lambda-power-tuning) or check Lambda Insights, after it runs through a few iterations, to determine optimal Lambda memory. But this test gives you a taste of how tweaking Lambda memory based on load testing can drastically improve performance.
