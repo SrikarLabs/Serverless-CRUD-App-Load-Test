@@ -46,9 +46,11 @@ Click “Performance”, then select “Ramp up” under Load Profile, select �
 
 Let it run for 2 mins, enjoy the show:
 
- 
+  ![Test1](./images/Test1.jpg)
 
-After 2 mins is over and the run completed, click “...”, and download pdf. So, this is initial test, note the average response time in pdf. In my case it’s 389 ms, it can be different in your case
+After 2 mins is over and the run completed, click “...”, and download pdf. So, this is initial test, note the average response time in pdf. Here it is 533 ms
+
+ ![Report1](./images/Report1.jpg)
 
  
 
