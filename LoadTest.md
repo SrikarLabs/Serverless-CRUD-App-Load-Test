@@ -56,7 +56,8 @@ After 2 mins is over and the run completed, click “...”, and download pdf. S
 
 Now, let’s improve performance! Change the Lambda memory from 128 to 1024 MB under configuration, change timeout to 5 secs, save. So now  
 
- 
+  ![LambdaMB](./images/LambdaMB.jpg)
+
 
 As we increase Lambda memory, it gets more vCPU (mapping below)
  
