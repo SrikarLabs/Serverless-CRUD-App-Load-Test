@@ -48,7 +48,7 @@ Let it run for 2 mins, enjoy the show:
 
   ![Test1](./images/Test1.jpg)
 
-After 2 mins is over and the run completed, click “...”, and download pdf. So, this is initial test, note the average response time in pdf. Here it is 533 ms
+After 2 mins is over and the run completed, click “...”, and download pdf. So, this is initial test, note the average response time in pdf. Here it is 553 ms
 
  ![Report1](./images/Report1.jpg)
 
@@ -69,7 +69,7 @@ Go back to postman, and click “Run Again”
 
  ![LT10](./images/LT10.jpg)
 
-And this time, response time came down because Lambda has more memory and vCPU
+And this time, response time came down to 307 ms because Lambda has more memory and vCPU
 
  ![Test2](./images/Test2.jpg)
   ![Report2](./images/Report2.jpg)
